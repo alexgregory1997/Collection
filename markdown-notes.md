@@ -2,6 +2,13 @@
 <p>The following document contains some basic notes on using Markdown. This is simply to serve as a quick reference guide for myself and any others who may find it useful.</p>
 
 ##### Introduction to Markdown
-Include a brief summary of what Markdown is, the benefits and how it works.
+<p>Include a brief summary of what Markdown is, the benefits and how it works.</p>
 
-##### Basics
+###### Headers
+'''markdown
+  #### test
+'''
+'''python
+  def sum(n1, n2):
+    return n1+n2
+'''
