@@ -17,7 +17,7 @@ There are six header levels defined by the number of \# signs.
   $ ##### Header 5
   $ ###### Header 6
 ```
-__OUTPUT__:
+__OUTPUT__:<br />
 # Header 1
 ## Header 2
 ### Header 3
@@ -32,7 +32,7 @@ There is an alternative syntax for header level 1 and 2, which is initiated by u
   $ Header 2
   $ --------
 ```
-__OUTPUT__:
+__OUTPUT__:<br />
 Header 1
 ========
 Header 2
@@ -43,7 +43,7 @@ Paragraphs can be defined by using <p\> and </p\> markers.
 ``` markdown
   $ <p>Some text.</p>
 ```
-__OUTPUT__:
+__OUTPUT__:<br />
 <p>Some text.</p>
 
 Line breaks can be specified using the <br /\> marker.
