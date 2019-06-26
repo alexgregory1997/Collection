@@ -74,3 +74,14 @@ For emphasis, text can be made __BOLD__, _ITALIC_, ~~STRIKETHROUGH~~ and a mixtu
 > *ITALIC* <br />
 > ~~STRIKETHROUGH~~ <br />
 > **_BOLD ITALICS_** <br />
+
+#### Blockquotes
+Blockquotes, as already used to show the output of previous code, places emphasis on a section of text. They are initiated using the \> marker and can be nested via \>\> ect.
+``` markdown
+  $ > Some text. <br />
+  $ > Some more text. <br />
+  $ >> Some nested text. <br />
+```
+> Some text. <br />
+> Some more text. <br />
+>> Some nested text. <br />
