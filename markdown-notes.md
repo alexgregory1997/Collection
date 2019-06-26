@@ -5,10 +5,6 @@
 <p>Include a brief summary of what Markdown is, the benefits and how it works.</p>
 
 ###### Headers
-'''markdown
+```markdown
   #### test
-'''
-'''python
-  def sum(n1, n2):
-    return n1+n2
-'''
+```
