@@ -1,13 +1,13 @@
 ### Markdown Reference Notes
 <p>The following document contains some basic notes on using Markdown. This is simply to serve as a quick reference guide for myself and any others who may find it useful.</p>
 
-##### Introduction to Markdown
+#### Introduction to Markdown
 <p>Include a brief summary of what Markdown is, the benefits and how it works. Note: the $ sign represents a new line.</p>
 
 ---
 
-##### General Markdown
-###### Headers
+#### General Markdown
+##### Headers
 There are six header levels defined by the number of \# signs.
 ``` markdown
   $ # Header 1
@@ -38,7 +38,7 @@ Header 1
 Header 2
 --------
 
-###### Paragraphs and Line Breaks
+##### Paragraphs and Line Breaks
 Paragraphs can be defined by using <p\> and </p\> markers.
 ``` markdown
   $ <p>Some text.</p>
@@ -53,7 +53,7 @@ Line breaks can be specified using the <br /\> marker.
 __OUTPUT__:<br />
 First line of text. <br /> Second line of text.
 
-###### Comments
+##### Comments
 To add comments to .md files, simply use the <\!-- and --> markers.
 ``` markdown
   $ <!-- This is a comment -->
@@ -63,8 +63,7 @@ __OUTPUT__:<br />
 <!-- This is a comment -->
 This is not a comment
 
-
-###### Emphasis
+##### Emphasis
 For emphasis, text can be made __BOLD__, _ITALIC_, ~~STRIKETHROUGH~~ and a mixture, such as **_BOLD ITALICS_**.
 ``` markdown
   $ __BOLD__
