@@ -92,8 +92,8 @@ There are ordered and unordered lists, which can also be nested.
   $ 1. Item 1
   $ 1. Item 2
   $ 1. Item 3
-  $   1. Nested item 1
-  $   1. Nested item 2
+  $    1. Nested item 1
+  $    1. Nested item 2
   $ 1. Item 4
 ```
 > 1. Item 1
