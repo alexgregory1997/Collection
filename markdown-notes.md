@@ -162,3 +162,18 @@ Code with syntax highlight can be shown for a variety of languages.
   return c;
   }
 ```
+
+``` markdown
+  $ ``` python
+  $   def add(a, b):
+  $     int c
+  $     c = a + b
+  $     return c
+  $ ```
+```
+``` python
+  def add(a, b):
+    int c
+    c = a + b
+    return c
+```
