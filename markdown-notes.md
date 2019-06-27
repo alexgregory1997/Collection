@@ -85,3 +85,80 @@ Blockquotes, as already used to show the output of previous code, places emphasi
 > Some text. <br />
 > Some more text. <br />
 >> Some nested text. <br />
+
+#### Lists
+There are ordered and unordered lists, which can also be nested.
+``` markdown
+  $ 1. Item 1
+  $ 1. Item 2
+  $ 1. Item 3
+  $   1. Nested item 1
+  $   1. Nested item 2
+  $ 1. Item 4
+```
+> 1. Item 1
+> 1. Item 2
+> 1. Item 3
+>   1. Nested item 1
+>   1. Nested item 2
+> 1. Item 4
+
+``` markdown
+  $ - Item 1
+  $ - Item 2
+  $ - Item 3
+  $   - Nested item 1
+  $   - Nested item 2
+  $ - Item 4
+```
+> - Item 1
+> - Item 2
+> - Item 3
+>   - Nested item 1
+>   - Nested item 2
+> - Item 4
+
+You can also use \* and \+ for lists and they can also be mixed.
+``` markdown
+  $ - Item 1
+  $ + Item 2
+  $ * Item 3
+```
+> - Item 1
+> + Item 2
+>   * Nested item 1
+> * Item 3
+
+A block of text can be within a list, providing the indentation is preserved.
+``` markdown
+  $ - Item 1
+  $   
+  $   Continue
+  $ + Item 2
+  $ *
+```
+> - Item 1
+>   
+>   continue
+> - Item 2
+> - Item 3
+
+#### Code Blocks
+Code with syntax highlight can be shown for a variety of languages.
+<!-- ``` markdown
+  $ ``` c
+  $   void add(int a, int b) {
+  $     int c;
+  $     c = a + b;
+  $     return c;
+  $   }
+  $ ```
+``` -->
+
+``` c
+  int add(int a, int b) {
+  int c;
+  c = a + b;
+  return c;
+  }
+```
