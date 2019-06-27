@@ -145,7 +145,7 @@ A block of text can be within a list, providing the indentation is preserved.
 
 #### Code Blocks
 Code with syntax highlight can be shown for a variety of languages.
-``` markdown
+```
   $ ``` c
   $   void add(int a, int b) {
   $     int c;
@@ -163,7 +163,7 @@ Code with syntax highlight can be shown for a variety of languages.
   }
 ```
 
-``` markdown
+```
   $ ``` python
   $   def add(a, b):
   $     int c
