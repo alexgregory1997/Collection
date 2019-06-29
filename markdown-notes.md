@@ -144,7 +144,7 @@ A block of text can be within a list, providing the indentation is preserved.
 > - Item 3
 
 #### Code Blocks
-Code with syntax highlight can be shown for a variety of languages.
+Code with syntax highlight can be shown for a variety of languages. Encase code in backticks \` and specify a supported language for correct highlighting.
 ```
   $ ``` c
   $   void add(int a, int b) {
@@ -177,3 +177,44 @@ Code with syntax highlight can be shown for a variety of languages.
     c = a + b
     return c
 ```
+
+#### Images
+Images from either local files or HTML links can be included within documents. The general syntax is:
+``` markdown
+  $ ![Image Name](path/to/file.png or HTML link)
+```
+> ![Markdown Logo](https://markdown-here.com/img/icon256.png)
+
+#### Horizontal Rule
+To section off documents, you can use horizontal rules. There are three ways of implementing this and all produce the same result.
+``` markdown
+  $ ***
+  $ ===
+  $ ___
+```
+> ***
+> ---
+> ___
+
+#### Links
+You can link to external webpages, such as my [GitHub](https://github.com/alexgregory1997).
+``` markdown
+  $ [word(s) to represent link](HTML link)
+```
+> This is a [link](https://github.com/alexgregory1997).
+
+Further, the title of the link can be specified. This will appear when hovering over the link. <br />
+``` markdown
+  $ [word(s) to represent link](HTML link "Link Title")
+```
+> This is a [link](https://github.com/alexgregory1997 "Link Title"). <br />
+
+Alternatively, a link or email can be linked by enclosing the URL or email address in angled brackets <example-email@gmail.com>.
+``` markdown
+  $ <example-email@gmail.com>
+```
+> <example-email@gmail.com>
+
+They can also be formatted like text, hence enclosing in \* and \*\* will make it *<example-email@gmail.com>* and **<example-email@gmail.com>** respectively.
+
+#### Referencing
