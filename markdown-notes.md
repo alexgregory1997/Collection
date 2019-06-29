@@ -181,9 +181,9 @@ Code with syntax highlight can be shown for a variety of languages. Encase code 
 #### Images
 Images from either local files or HTML links can be included within documents. The general syntax is:
 ``` markdown
-  $ ![Image Name](path/to/file.png or HTML link "Title")
+  $ ![Image Name](path/to/file.png or HTML link)
 ```
-> ![Markdown Logo](https://markdown-here.com/img/icon256.png "Title")
+> ![Markdown Logo](https://markdown-here.com/img/icon256.png)
 
 #### Horizontal Rule
 To section off documents, you can use horizontal rules. There are three ways of implementing this and all produce the same result.
@@ -220,5 +220,19 @@ They can also be formatted like text, hence enclosing in \* and \*\* will make i
 #### Referencing
 Markdown allows formatted references, although they must be manually ordered.
 ``` markdown
-  $ [name-reference][]
+  $ This is some reference in the text [name-reference][1] <br />
+  $ [1]: <some-link> "Link Title"
 ```
+
+> This is some reference in the text [name-reference][1] <br />
+> <br />
+> [1]: <some-link> "Link Title"
+
+You can also include footnotes.
+``` markdown
+  $ This is some footnote [^1].
+  $ [^1]: This is the contents of the footnote.
+```
+> This is some footnote [^1]. <br />
+> <br />
+> [^1]: This is the contents of the footnote.
