@@ -1,8 +1,8 @@
 ## Markdown Reference Notes
-<p>The following document contains some basic notes on using Markdown. This is simply to serve as a quick reference guide for myself and any others who may find it useful.</p>
+<p>The following document contains some basic notes on using Markdown. This is simply to serve as a quick reference guide for myself and any others who may find it useful. This document will continue to be amended with new features and updates.</p>
 
 ### Introduction to Markdown
-<p>Include a brief summary of what Markdown is, the benefits and how it works. Note: the $ sign represents a new line.</p>
+<p>Markdown is a simple lightweight markup language, generally used for formatting README files or software documentation. There are additional forms of Markdown which include other features, such as GitHub flavoured markdown. However, the ideology of the language was \'easy-to-read\' and \'easy-to-write\', so formatting is deliberately limited.</p>
 
 ---
 
@@ -228,7 +228,7 @@ Markdown allows formatted references, although they must be manually ordered.
 > <br />
 > [1]: <some-link> "Link Title"
 
-You can also include footnotes.
+You can also include footnotes. Note, this only works for certain markdown flavours.
 ``` markdown
   $ This is some footnote [^1].
   $ [^1]: This is the contents of the footnote.
@@ -236,3 +236,35 @@ You can also include footnotes.
 > This is some footnote [^1]. <br />
 > <br />
 > [^1]: This is the contents of the footnote.
+
+#### Tables (GitHub)
+In the GitHub markdown flavour, tables can be included.
+``` markdown
+  $ | Column 1 | Column 2| Column 3|
+  $ | --- | --- | --- |
+  $ | Some text | Some numbers: 2648392 | Hash: #duiajdah4 |
+```
+> | Column 1 | Column 2| Column 3|
+> | --- | --- | --- |
+> | Some text | Some numbers: 2648392 | Hash: #duiajdah4 |
+
+Alignment of text can be done by adding a colon \: to the left, both or right sides for left, centre and right alignment respectively.
+``` markdown
+  $ | Column 1 | Column 2| Column 3|
+  $ | :--- | :---: | ---: |
+  $ | Some text | Some numbers: 2648392 | Hash: #duiajdah4 |
+```
+> | Column 1 | Column 2| Column 3|
+> | :--- | :---: | ---: |
+> | Some text | Some numbers: 2648392 | Hash: #duiajdah4 |
+
+#### Task Lists
+You can construct task lists with the ability to tick them off as you go:
+``` markdown
+  - [x] Task 1
+  - [ ] Task 2
+  - [ ] Task 3
+```
+> - [x] Task 1
+> - [ ] Task 2
+> - [ ] Task 3
