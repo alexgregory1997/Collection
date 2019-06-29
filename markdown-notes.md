@@ -181,9 +181,9 @@ Code with syntax highlight can be shown for a variety of languages. Encase code 
 #### Images
 Images from either local files or HTML links can be included within documents. The general syntax is:
 ``` markdown
-  $ ![Image Name](path/to/file.png or HTML link)
+  $ ![Image Name](path/to/file.png or HTML link "Title")
 ```
-> ![Markdown Logo](https://markdown-here.com/img/icon256.png)
+> ![Markdown Logo](https://markdown-here.com/img/icon256.png "Title")
 
 #### Horizontal Rule
 To section off documents, you can use horizontal rules. There are three ways of implementing this and all produce the same result.
@@ -218,3 +218,7 @@ Alternatively, a link or email can be linked by enclosing the URL or email addre
 They can also be formatted like text, hence enclosing in \* and \*\* will make it *<example-email@gmail.com>* and **<example-email@gmail.com>** respectively.
 
 #### Referencing
+Markdown allows formatted references, although they must be manually ordered.
+``` markdown
+  $ [name-reference][]
+```
