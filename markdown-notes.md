@@ -2,7 +2,7 @@
 <p>The following document contains some basic notes on using Markdown. This is simply to serve as a quick reference guide for myself and any others who may find it useful. This document will continue to be amended with new features and updates.</p>
 
 ### Introduction to Markdown
-<p>Markdown is a simple lightweight markup language, generally used for formatting README files or software documentation. There are additional forms of Markdown which include other features, such as GitHub flavoured markdown. However, the ideology of the language was \'easy-to-read\' and \'easy-to-write\', so formatting is deliberately limited.</p>
+<p>Markdown is a simple lightweight markup language, generally used for formatting README files or software documentation. There are additional forms of Markdown which include other features, such as GitHub flavoured markdown. However, the ideology of the language was 'easy-to-read' and 'easy-to-write', so formatting is deliberately limited.</p>
 
 ---
 
